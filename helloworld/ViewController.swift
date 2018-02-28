@@ -24,7 +24,7 @@ class ViewController: UIViewController {
 
     @IBOutlet var helloworldaction: UIButton!
     @IBAction func onHit(_ sender: Any) {
-        NameLabel.text = "Hello \(atextField.text!)"
+        NameLabel.text = "Hello \(atextField.text)"
     }
     
 }
